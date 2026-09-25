@@ -18,7 +18,7 @@ const consumo = {
 const consumoMedio = 0.2;
 
 // Fator de correção
-const fatorCorrecao = 0.6;
+const fatorCorrecao = 0.65;
 
 const standby = {
     "microondas": 0.002,
