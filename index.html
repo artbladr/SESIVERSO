@@ -9,77 +9,154 @@
 <body>
     <div class="main-sec">
         <div class="part1">
-                <div class="d1">
-                    <p class="line p-l">esqueço equipamentos eletrônicos ligados de</p>
-                    <input type="number" name="first-number" id="first-number" class="line"> 
-                    <p class="line p-l m-l">vez(es) a</p>
-                    <input type="number" name="second-number" id="second-number" class="line">
-                    <p class="line ult-line p-l">vez(es) por</p>
+                <div class="part1-grid">
+                    <div class="grid-freq">
+                        <div class="h2-handle">
+                        <h2>Com qual frequência você esquece eletrodomésticos ligados?</h2>
+                        </div>
+                        <label>
+                            <input type="radio" name="freq" id="7"> Sempre
+                        </label>
+
+                        <label>
+                            <input type="radio" name="freq" id="6"> 6x na semana
+                        </label>
+
+                        <label>
+                            <input type="radio" name="freq" id="5"> 5x na semana
+                        </label>
+
+                        <label>
+                            <input type="radio" name="freq" id="4"> 4x na semana
+                        </label>
+
+                        <label>
+                           <input type="radio" name="freq" id="3"> 3x na semana
+                        </label>
+
+                        <label>
+                            <input type="radio" name="freq" id="2"> 2x na semana
+                        </label>
+
+                        <label>
+                            <input type="radio" name="freq" id="1"> 1x na semana
+                        </label>
+
+                        <label>
+                            <input type="radio" name="freq" id="0"> Menos de 1x na semana
+                        </label>
+
+                    </div>
+                    <div class="grid-quant">
+                        <div class="h2-handle">
+                        <h2>Selecione quantos dispositivos você costuma esquecer ligados(quando esquece)</h2>
+                        </div>
+                        <label>
+                            <input type="radio" name="qnt" id="q1"> 1
+                        </label>
+
+                        <label>
+                            <input type="radio" name="qnt" id="q2"> 2
+                        </label>
+
+                        <label>
+                            <input type="radio" name="qnt" id="q3"> 3
+                        </label>
+
+                        <label>
+                           <input type="radio" name="qnt" id="q4"> 4
+                        </label>
+
+                        <label>
+                            <input type="radio" name="qnt" id="q5"> 5
+                        </label>
+
+                        <label>
+                            <input type="radio" name="qnt" id="q6"> +5
+                        </label>
+                    </div>
+                    <div class="grid-tmp">
+                        <div class="h3-handle">
+                        <h3>Durante quantas horas, em média, você costumar ficar fora de casa ao sair?</h3>
+                        </div>
+                        <input type="number" name="nmbr" id="number-tempo-sair">
+                    </div>
+                    <div class="grid-tmp">
+                        <div class="h3-handle">
+                        <h3>Quantas vezes você sai de casa, em média, por semana?</h3>
+                        </div>
+                        <input type="number" name="nmbr" id="saidas-semana">
+                    </div>
+                    <div class="h2-handle">
+                    <h2 class="h2-sozinho">Selecione quais destes dispositivos você costuma utilizar com frequência</h2>
+                    </div>
+                    <div class="grid-part1-ques">
+                        <label><input type="checkbox" name="equipamentos2" value="ar-condicionado"> Ar-condicionado</label>
+                        <label><input type="checkbox" name="equipamentos2" value="ar-condicionado-portatil"> Ar-condicionado portátil</label>
+                        <label><input type="checkbox" name="equipamentos2" value="ventilador"> Ventilador</label>
+                        <label><input type="checkbox" name="equipamentos2" value="ventilador-teto"> Ventilador de teto</label>
+                        <label><input type="checkbox" name="equipamentos2" value="climatizador"> Climatizador de ar</label>
+                        <label><input type="checkbox" name="equipamentos2" value="aquecedor-eletrico"> Aquecedor elétrico</label>
+                        <label><input type="checkbox" name="equipamentos2" value="umidificador"> Umidificador de ar</label>
+                        <label><input type="checkbox" name="equipamentos2" value="desumidificador"> Desumidificador</label>
+                        <label><input type="checkbox" name="equipamentos2" value="televisao"> Televisão</label>
+                        <label><input type="checkbox" name="equipamentos2" value="videogame"> Videogame</label>
+                        <label><input type="checkbox" name="equipamentos2" value="computador"> Computador</label>
+                        <label><input type="checkbox" name="equipamentos2" value="monitor"> Monitor</label>
+                        <label><input type="checkbox" name="equipamentos2" value="caixa-som"> Caixa de som</label>
+                        <label><input type="checkbox" name="equipamentos2" value="projetor"> Projetor</label>
+                    </div>
                 </div>
-                <label for="dia">dia</label>
-                <input type="radio" name="temp" id="dia">
-                <label for="semana">semana</label>
-                <input type="radio" name="temp" id="semana">
-                <label for="mes">mês</label>
-                <input type="radio" name="temp" id="mes">
-                <p>e quando saio, geralmente saio de casa por</p>
-                <input type="number" name="third-number" id="third-number">
-                <p>horas</p>
         </div>
         <div class="part2">
-            <h2>Selecione quais equipamentos você tem</h2>
+            <div class="h2-handle">
+            <h2>Selecione quais destes equipamentos você possui</h2>
+            </div>
             <div class="part2-grid">
-<label><input type="checkbox" name="equipamentos" value="microondas"> Micro-ondas</label><br>
-<label><input type="checkbox" name="equipamentos" value="forno-eletrico"> Forno elétrico</label><br>
-<label><input type="checkbox" name="equipamentos" value="air-fryer"> Air fryer</label><br>
-<label><input type="checkbox" name="equipamentos" value="cafeteira"> Cafeteira</label><br>
-<label><input type="checkbox" name="equipamentos" value="maquina-cafe"> Máquina de café expresso</label><br>
-<label><input type="checkbox" name="equipamentos" value="panela-eletrica"> Panela elétrica</label><br>
-<label><input type="checkbox" name="equipamentos" value="panela-pressao-eletrica"> Panela de pressão elétrica</label><br>
-
-<label><input type="checkbox" name="equipamentos" value="lava-loucas"> Lava-louças</label><br>
-<label><input type="checkbox" name="equipamentos" value="maquina-lavar"> Máquina de lavar roupa</label><br>
-<label><input type="checkbox" name="equipamentos" value="lava-seca"> Máquina lava e seca</label><br>
-<label><input type="checkbox" name="equipamentos" value="secadora-roupas"> Secadora de roupas</label><br>
-<label><input type="checkbox" name="equipamentos" value="aspirador-vertical"> Aspirador vertical</label><br>
-<label><input type="checkbox" name="equipamentos" value="robo-aspirador"> Robô aspirador</label><br>
-
-<label><input type="checkbox" name="equipamentos" value="ar-condicionado"> Ar-condicionado</label><br>
-<label><input type="checkbox" name="equipamentos" value="ar-condicionado-portatil"> Ar-condicionado portátil</label><br>
-<label><input type="checkbox" name="equipamentos" value="ventilador"> Ventilador</label><br>
-<label><input type="checkbox" name="equipamentos" value="ventilador-teto"> Ventilador de teto</label><br>
-<label><input type="checkbox" name="equipamentos" value="climatizador"> Climatizador</label><br>
-<label><input type="checkbox" name="equipamentos" value="aquecedor-eletrico"> Aquecedor elétrico</label><br>
-<label><input type="checkbox" name="equipamentos" value="umidificador"> Umidificador de ar</label><br>
-<label><input type="checkbox" name="equipamentos" value="desumidificador"> Desumidificador</label><br>
-
-<label><input type="checkbox" name="equipamentos" value="purificador-agua"> Purificador de água</label><br>
-<label><input type="checkbox" name="equipamentos" value="bebedouro"> Bebedouro elétrico</label><br>
-
-<label><input type="checkbox" name="equipamentos" value="televisao"> Televisão</label><br>
-<label><input type="checkbox" name="equipamentos" value="smart-tv"> Smart TV</label><br>
-<label><input type="checkbox" name="equipamentos" value="videogame"> Videogame</label><br>
-<label><input type="checkbox" name="equipamentos" value="computador"> Computador</label><br>
-<label><input type="checkbox" name="equipamentos" value="notebook"> Notebook</label><br>
-<label><input type="checkbox" name="equipamentos" value="monitor"> Monitor</label><br>
-<label><input type="checkbox" name="equipamentos" value="impressora"> Impressora</label><br>
-<label><input type="checkbox" name="equipamentos" value="caixa-som"> Caixa de som</label><br>
-<label><input type="checkbox" name="equipamentos" value="soundbar"> Soundbar</label><br>
-<label><input type="checkbox" name="equipamentos" value="home-theater"> Home theater</label><br>
-<label><input type="checkbox" name="equipamentos" value="projetor"> Projetor</label><br>
-<label><input type="checkbox" name="equipamentos" value="decodificador-tv"> Decodificador de TV</label><br>
-<label><input type="checkbox" name="equipamentos" value="chromecast"> Dispositivo de streaming</label><br>
-
-<label><input type="checkbox" name="equipamentos" value="campainha-eletronica"> Campainha eletrônica</label><br>
-<label><input type="checkbox" name="equipamentos" value="carregador-celular"> Carregador de celular</label><br>
-
-
+                <label><input type="checkbox" name="equipamentos" value="microondas"> Micro-ondas</label>
+                <label><input type="checkbox" name="equipamentos" value="forno-eletrico"> Forno elétrico</label>
+                <label><input type="checkbox" name="equipamentos" value="air-fryer"> Air fryer</label>
+                <label><input type="checkbox" name="equipamentos" value="cafeteira"> Cafeteira</label>
+                <label><input type="checkbox" name="equipamentos" value="panela-eletrica"> Panela elétrica</label>
+                <label><input type="checkbox" name="equipamentos" value="panela-pressao-eletrica"> Panela de pressão elétrica</label>
+                <label><input type="checkbox" name="equipamentos" value="lava-loucas"> Lava-louças</label>
+                <label><input type="checkbox" name="equipamentos" value="maquina-lavar"> Máquina de lavar roupa</label>
+                <label><input type="checkbox" name="equipamentos" value="lava-seca"> Máquina lava e seca</label>
+                <label><input type="checkbox" name="equipamentos" value="secadora-roupas"> Secadora de roupas</label>
+                <label><input type="checkbox" name="equipamentos" value="aspirador-vertical"> Aspirador vertical</label>
+                <label><input type="checkbox" name="equipamentos" value="robo-aspirador"> Robô aspirador</label>
+                <label><input type="checkbox" name="equipamentos" value="ar-condicionado"> Ar-condicionado</label>
+                <label><input type="checkbox" name="equipamentos" value="ar-condicionado-portatil"> Ar-condicionado portátil</label>
+                <label><input type="checkbox" name="equipamentos" value="ventilador"> Ventilador</label>
+                <label><input type="checkbox" name="equipamentos" value="ventilador-teto"> Ventilador de teto</label>
+                <label><input type="checkbox" name="equipamentos" value="climatizador"> Climatizador</label>
+                <label><input type="checkbox" name="equipamentos" value="aquecedor-eletrico"> Aquecedor elétrico</label>
+                <label><input type="checkbox" name="equipamentos" value="umidificador"> Umidificador de ar</label>
+                <label><input type="checkbox" name="equipamentos" value="desumidificador"> Desumidificador</label>
+                <label><input type="checkbox" name="equipamentos" value="bebedouro"> Bebedouro elétrico</label>
+                <label><input type="checkbox" name="equipamentos" value="televisao"> Televisão</label>
+                <label><input type="checkbox" name="equipamentos" value="smart-tv"> Smart TV</label>
+                <label><input type="checkbox" name="equipamentos" value="videogame"> Videogame</label>
+                <label><input type="checkbox" name="equipamentos" value="computador"> Computador</label>
+                <label><input type="checkbox" name="equipamentos" value="monitor"> Monitor</label>
+                <label><input type="checkbox" name="equipamentos" value="impressora"> Impressora</label>
+                <label><input type="checkbox" name="equipamentos" value="caixa-som"> Caixa de som</label>
+                <label><input type="checkbox" name="equipamentos" value="projetor"> Projetor</label>
+                <label><input type="checkbox" name="equipamentos" value="chromecast"> Dispositivo de streaming</label>
+                <label><input type="checkbox" name="equipamentos" value="campainha-eletronica"> Campainha eletrônica</label>
             </div>
         </div>
         <div class="part3">
-            <input type="button" value="bu-1" id="bu-1">
-            <p id="res-1"></p>
-            <p id="res-2"></p>
+            <input type="button" value="Calcular" id="bu-1">
+            <p id="res-3"></p>
+            <div class="total">
+                <p class="res-p">Sua fatura sem a economia é de aproximadamente:</p>
+                <p id="res-1"></p>
+            </div>
+            <div class="eco">
+                <p class="res-p">Sua fatura com a economia é de aproximadamente:</p>
+                <p id="res-2"></p>
+            </div>
         </div>
     </div>
 
